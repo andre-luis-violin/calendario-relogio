@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(https://images.pexels.com/photos/1903702/pexels-photo-1903702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.calendar {
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.calendar span {
+  display: block;
+}
+
+.calendar #monthName {
+  padding: 5px;
+  background: #ff3180;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.calendar #dayName {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-transform: capitalize;
+}
+
+.calendar #dayNumber {
+  font-size: 80px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1em;
+}
+
+.calendar #year {
+  font-size: 20px;
+  font-weight: 500;
+  color: #999;
+}
+
+#clock {
+  background: #f9156c;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  color: rgba(255, 255, 255, .5);
+  font-size: 0.7em;
+  font-weight: 300;
+  text-align: left;
+  padding: 20px;
+}
